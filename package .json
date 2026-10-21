@@ -1,0 +1,11 @@
+{
+  "name": "mido-md-v3",
+  "version": "3.0.0",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^8.16.0",
+    "axios": "^1.6.0"
+  }
+}
