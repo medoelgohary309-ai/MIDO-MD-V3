@@ -1,6 +1,6 @@
 // MIDO EL GOHARY MD - FULL 600+ COMMANDS - FINAL FIXED FOR RENDER
 // رقم المالك: 201155466784
-
+require('http').createServer((req,res)=>res.end('MIDO MD V3 ONLINE - 201155466784')).listen(process.env.PORT || 3000);
 const { 
     default: makeWASocket, 
     useMultiFileAuthState, 
